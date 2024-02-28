@@ -1,0 +1,59 @@
+.Header{  
+    display: flex;  
+    flex-direction: row;  
+    background-color: rgb(0,167,127);  
+    width: 98.5vw;  
+    height: 11.45vh;  
+    align-items: center;  
+    align-content: center;  
+    text-align: center;  
+    }  
+    .Logo{  
+    float: left;  
+    width: 13vw;  
+    margin-right: 12vw;  
+    }  
+    .Premium{  
+    margin-left: 5vw;  
+    float:right;  
+    margin-right: 1vw;  
+    padding: 0.5vw;  
+    border: 2px solid orange;  
+    }  
+    .PremiumLogo{  
+    width: 3vw;  
+    float:right;  
+    }  
+    .Element{  
+    color: white;  
+    background-color: rgba(255, 255, 255, 0);  
+    font-weight: lighter;  
+    margin-left: 3vw;  
+    font-size: large;  
+    display: flex;  
+    flex-direction: column;  
+    width: fit-content;  
+    }  
+    select{  
+    background-color: initial;  
+    font-size: initial;  
+    border: initial;  
+    color: black;  
+    }  
+    .Option{  
+    color:black;  
+    }  
+    select:hover{  
+    border: initial;  
+    }  
+    select option{  
+    background: transparent;  
+    }  
+    a:hover{  
+    color:rgb(0, 225, 255);  
+    font-weight: bold;  
+    }  
+    .Selected{  
+    font-weight: bold;  
+    color:red;  
+    }  
